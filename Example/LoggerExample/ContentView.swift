@@ -6,16 +6,20 @@
 //
 
 import SwiftUI
+import LoggerPackage
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        
+        SwiftUIView()
+        
+//        VStack {
+//            Image(systemName: "globe")
+//                .imageScale(.large)
+//                .foregroundStyle(.tint)
+//            Text("Hello, world!")
+//        }
+//        .padding()
     }
 }
 

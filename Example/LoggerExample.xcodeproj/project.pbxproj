@@ -11,6 +11,7 @@
 		FA3037FF2ADEE8D800D65A38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3037FE2ADEE8D800D65A38 /* ContentView.swift */; };
 		FA3038012ADEE8DC00D65A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3038002ADEE8DC00D65A38 /* Assets.xcassets */; };
 		FA3038052ADEE8DC00D65A38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3038042ADEE8DC00D65A38 /* Preview Assets.xcassets */; };
+		FA30380D2ADEEC6900D65A38 /* LoggerPackage in Frameworks */ = {isa = PBXBuildFile; productRef = FA30380C2ADEEC6900D65A38 /* LoggerPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA30380D2ADEEC6900D65A38 /* LoggerPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +87,9 @@
 			dependencies = (
 			);
 			name = LoggerExample;
+			packageProductDependencies = (
+				FA30380C2ADEEC6900D65A38 /* LoggerPackage */,
+			);
 			productName = LoggerExample;
 			productReference = FA3037F92ADEE8D800D65A38 /* LoggerExample.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +118,9 @@
 				Base,
 			);
 			mainGroup = FA3037F02ADEE8D800D65A38;
+			packageReferences = (
+				FA30380B2ADEEC6900D65A38 /* XCRemoteSwiftPackageReference "LoggerPackage" */,
+			);
 			productRefGroup = FA3037FA2ADEE8D800D65A38 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -359,6 +367,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA30380B2ADEEC6900D65A38 /* XCRemoteSwiftPackageReference "LoggerPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/savinash/LoggerPackage";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA30380C2ADEEC6900D65A38 /* LoggerPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA30380B2ADEEC6900D65A38 /* XCRemoteSwiftPackageReference "LoggerPackage" */;
+			productName = LoggerPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA3037F12ADEE8D800D65A38 /* Project object */;
 }
