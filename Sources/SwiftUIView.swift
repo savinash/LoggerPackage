@@ -9,6 +9,7 @@ import SwiftUI
 
 public struct SwiftUIView: View {
     public init() {}
+    @available(iOS 13.0, *)
     public var body: some View {
         Text("Testing swift package manager")
     }
