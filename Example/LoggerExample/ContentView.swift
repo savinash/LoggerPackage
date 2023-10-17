@@ -11,7 +11,7 @@ import LoggerPackage
 struct ContentView: View {
     var body: some View {
         
-        SwiftUIView()
+        Swift
         
 //        VStack {
 //            Image(systemName: "globe")
