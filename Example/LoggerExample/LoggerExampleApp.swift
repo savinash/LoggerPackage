@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import LoggerPackage
 
 @main
 struct LoggerExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            SwiftUIView()
         }
     }
 }
