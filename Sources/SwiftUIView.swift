@@ -6,11 +6,20 @@
 //
 
 import SwiftUI
+import OSLog
+import Foundation
 
+@available(iOS 14.0, *)
 public struct SwiftUIView: View {
     public init() {}
-    @available(iOS 13.0, *)
+    
+    let logger = Logger()
+    let x = 42
+    
     public var body: some View {
         Text("Testing swift package manager")
+        let _ = print("asfd")
+        let _ = logger.log("asdf")
     }
+    
 }

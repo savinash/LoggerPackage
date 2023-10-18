@@ -7,8 +7,10 @@
 
 import SwiftUI
 import LoggerPackage
+import OSLog
 
 struct ContentView: View {
+    let logger = Logger()
     var body: some View {
         VStack {
             Image(systemName: "globe")
