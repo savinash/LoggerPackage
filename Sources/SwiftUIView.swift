@@ -18,7 +18,7 @@ public struct SwiftUIView: View {
     
     public var body: some View {
         Text("Testing swift package manager")
-        let _ = print("asfd")
+        let _ = logger.trace("test")
     }
     
 }
