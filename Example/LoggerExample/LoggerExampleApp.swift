@@ -15,6 +15,8 @@ struct LoggerExampleApp: App {
         WindowGroup {
 //            ContentView()
             SwiftUIView()
+            let logger = Logger(label: Bundle.main.bundleIdentifier!, factory: StreamLogHandler.standardError(label:))
+            let _ = logger.info("Avi test")
         }
     }
 }
