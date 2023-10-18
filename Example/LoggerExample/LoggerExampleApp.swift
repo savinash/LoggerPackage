@@ -8,7 +8,6 @@
 import SwiftUI
 import LoggerPackage
 
-
 @main
 struct LoggerExampleApp: App {
     var body: some Scene {
