@@ -8,18 +8,17 @@
 import SwiftUI
 import OSLog
 import Foundation
+import Logging
 
 @available(iOS 14.0, *)
 public struct SwiftUIView: View {
     public init() {}
-    
-    let logger = Logger()
-    let x = 42
+
+    let logger = Logger(label: Bundle.main.bundleIdentifier!, factory: StreamLogHandler.standardError(label:))
     
     public var body: some View {
         Text("Testing swift package manager")
         let _ = print("asfd")
-        let _ = logger.log("asdf")
     }
     
 }
