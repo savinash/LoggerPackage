@@ -12,8 +12,8 @@ import LoggerPackage
 struct LoggerExampleApp: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-            SwiftUIView()
+            ContentView()
+//            SwiftUIView()
             let _ = AppLog.shared.logger.critical("Critical logger test")
             let _ = AppLog.shared.logger.debug("Debug logger test")
             let _ = AppLog.shared.logger.error("Error logger test")
