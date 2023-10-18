@@ -18,7 +18,14 @@ public struct SwiftUIView: View {
     
     public var body: some View {
         Text("Testing swift package manager")
-        let _ = logger.trace("test")
+        let _ = logger.trace("trace test")
+        let _ = logger.info("info test")
+        let _ = logger.debug("debug test")
+        let _ = logger.notice("notice test")
+        let _ = logger.warning("warning test")
+        let _ = logger.error("error test")
+        let _ = logger.critical("critical test")
+        let _ = print("Print test")
     }
     
 }
