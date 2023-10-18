@@ -18,19 +18,6 @@ public struct SwiftUIView: View {
     
     public var body: some View {
         Text("Testing swift package manager")
-        let _ = AppLog.shared.logger.info("Singleton logger test")
-        let _ = AppLog.shared.logger.debug("Singleton logger test")
-        let _ = AppLog.shared.logger.notice("Singleton logger test")
-        let _ = AppLog.shared.logger.warning("Singleton logger test")
-        let _ = AppLog.shared.logger.error("Singleton logger test")
-        let _ = AppLog.shared.logger.critical("Singleton logger test")
-//        let _ = logger.info("info test")
-//        let _ = logger.debug("debug test")
-//        let _ = logger.notice("notice test")
-//        let _ = logger.warning("warning test")
-//        let _ = logger.error("error test")
-//        let _ = logger.critical("critical test")
-//        let _ = print("Print test")
     }
     
 }
