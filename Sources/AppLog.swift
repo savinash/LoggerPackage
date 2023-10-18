@@ -8,8 +8,8 @@
 import Foundation
 import Logging
 
-class AppLog {
+struct AppLog {
     static let shared = AppLog()
-    let logger = Logger(label: Bundle.main.bundleIdentifier!, factory: StreamLogHandler.standardError(label:))
+    var logger = Logger(label: Bundle.main.bundleIdentifier!, factory: StreamLogHandler.standardError(label:))
     private init() { }
 }
