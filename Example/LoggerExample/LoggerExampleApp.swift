@@ -7,7 +7,7 @@
 
 import SwiftUI
 import LoggerPackage
-import Logging
+
 
 @main
 struct LoggerExampleApp: App {
