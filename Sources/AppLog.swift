@@ -17,5 +17,5 @@ import Logging
 public struct AppLog {
     public static let shared = AppLog()
     public var logger = Logger(label: Bundle.main.bundleIdentifier!, factory: StreamLogHandler.standardError(label:))
-//    private init() { }
+    private init() { }
 }
