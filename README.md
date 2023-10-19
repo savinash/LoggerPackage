@@ -16,17 +16,11 @@ Import the package and use the logger to log messages. Below are the examples of
 import LoggerPackage
 
 AppLog.shared.logger.critical("Critical logger test")
-
 AppLog.shared.logger.debug("Debug logger test")
-
 AppLog.shared.logger.error("Error logger test")
-
 AppLog.shared.logger.info("Info logger test")
-
 AppLog.shared.logger.notice("Notice logger test")
-
 AppLog.shared.logger.trace("Trace logger test")
-
 AppLog.shared.logger.warning("Warning logger test")
 
 
