@@ -14,13 +14,13 @@ struct LoggerExampleApp: App {
         WindowGroup {
             ContentView()
 //            SwiftUIView()
-            let _ = AppLog.shared.logger.critical("Critical logger test")
-            let _ = AppLog.shared.logger.debug("Debug logger test")
-            let _ = AppLog.shared.logger.error("Error logger test")
-            let _ = AppLog.shared.logger.info("Info logger test")
-            let _ = AppLog.shared.logger.notice("Notice logger test")
-            let _ = AppLog.shared.logger.trace("Trace logger test")
-            let _ = AppLog.shared.logger.warning("Warning logger test")
+//            let _ = AppLog.shared.logger.critical("Critical logger test")
+//            let _ = AppLog.shared.logger.debug("Debug logger test")
+//            let _ = AppLog.shared.logger.error("Error logger test")
+//            let _ = AppLog.shared.logger.info("Info logger test")
+//            let _ = AppLog.shared.logger.notice("Notice logger test")
+//            let _ = AppLog.shared.logger.trace("Trace logger test")
+//            let _ = AppLog.shared.logger.warning("Warning logger test")
         }
     }
 }
