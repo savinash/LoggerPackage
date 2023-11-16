@@ -10,6 +10,9 @@ let package = Package(
         .library(
             name: "LoggerPackage",
             targets: ["LoggerPackage"]),
+        .library(
+            name: "MultiTarget",
+            targets: ["MultiTarget"]),
     ],
     dependencies: [
         .package(name:"Logging", url: "https://github.com/apple/swift-log.git", from: "1.5.3"),
@@ -20,7 +23,10 @@ let package = Package(
         .target(
             name: "LoggerPackage",
             dependencies: ["Logging"],
-            path: "Sources"),
+            path: "Sources/LoggerPackage"),
+        .target(
+            name: "MultiTarget",
+            path: "Sources/MultiTarget"),
         .testTarget(
             name: "LoggerPackageTests",
             dependencies: ["LoggerPackage"]),
