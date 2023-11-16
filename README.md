@@ -24,3 +24,4 @@ AppLog.shared.logger.trace("Trace logger test")
 AppLog.shared.logger.warning("Warning logger test")
 
 
+
