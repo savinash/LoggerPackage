@@ -14,10 +14,3 @@ public struct MultiTarget: View {
     }
 }
 
-#Preview {
-    if #available(iOS 13.0.0, *) {
-        MultiTarget()
-    } else {
-        // Fallback on earlier versions
-    }
-}

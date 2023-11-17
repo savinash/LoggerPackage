@@ -23,12 +23,6 @@ public struct LoggerPackage: View {
     }
 }
 
-#Preview {
-    if #available(iOS 15.0, *) {
-        LoggerPackage()
-    } else {
-        // Fallback on earlier versions
-    }
-}
+
 
 
