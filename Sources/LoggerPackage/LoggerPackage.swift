@@ -18,7 +18,7 @@ public struct LoggerPackage: View {
                 }
     }
     
-    func showMessage() {
+    public func showMessage() {
         print("Test message")
     }
 }
