@@ -23,7 +23,7 @@ let package = Package(
         .target(
             name: "LoggerPackage",
             dependencies: ["Logging"],
-            path: "Sources"),
+            path: "Sources/LoggerPackage"),
         .target(
             name: "MultiTarget",
             path: "Sources/MultiTarget"),
