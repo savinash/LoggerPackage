@@ -4,7 +4,7 @@
 import SwiftUI
 
 @available(iOS 15.0, *)
-public struct MultiTarget: View {
+public struct LoggerPackage: View {
     @State private var showingAlert = false
 
     public var body: some View {
@@ -18,8 +18,6 @@ public struct MultiTarget: View {
                 }
     }
     
-    
-    
     func showMessage() {
         print("Test message")
     }
@@ -27,7 +25,7 @@ public struct MultiTarget: View {
 
 #Preview {
     if #available(iOS 15.0, *) {
-        MultiTarget()
+        LoggerPackage()
     } else {
         // Fallback on earlier versions
     }
